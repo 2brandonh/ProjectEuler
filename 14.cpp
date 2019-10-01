@@ -4,7 +4,6 @@
 int counter, largest = 1, largest_chain = 1;
 long long collatz[1000001];
 
-
 void calc(long long n) {
 	collatz[1] = 1;
 	long long start = n;
@@ -24,8 +23,6 @@ void calc(long long n) {
 		largest = start, largest_chain = collatz[start];
 	}
 }
-
-//function needs to be declared before main
 
 int main() {
 	auto start = std::chrono::high_resolution_clock::now();
