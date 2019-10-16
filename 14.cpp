@@ -1,6 +1,8 @@
 #include <iostream>
 #include <chrono> 
 
+//Which starting number, under one million, produces the longest collatz chain?
+
 int counter, largest = 1, largest_chain = 1;
 long long collatz[1000001];
 
