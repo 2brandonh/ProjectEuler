@@ -5,3 +5,4 @@ This repository contains some of the projects I worked on for Project Euler chal
 Interesting ones include:
 #7 which utilizes the Sieve of Eratosthenes
 #14 utilizing dynamic programming for finding collatz chains.
+
